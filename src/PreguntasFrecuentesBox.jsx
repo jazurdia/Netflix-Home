@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./PreguntasFrecuentesBox.css";
 import PropTypes from "prop-types";
 
-function PreguntasFrecuentesBox({ pregunta, text1 }) {
+function PreguntasFrecuentesBox({ pregunta, text1, text2 }) {
   const [mostrarRespuesta, setMostrarRespuesta] = useState(false);
   const [svgRotation, setSvgRotation] = useState(0);
 
@@ -34,7 +34,11 @@ function PreguntasFrecuentesBox({ pregunta, text1 }) {
           />
         </svg>
       </div>
-      {mostrarRespuesta && <div className="box-down">{text1}</div>}
+      {mostrarRespuesta && (
+        <div className="box-down">
+          {text1} <br /> <br /> {text2}
+        </div>
+      )}
     </div>
   );
 }
@@ -42,6 +46,7 @@ function PreguntasFrecuentesBox({ pregunta, text1 }) {
 PreguntasFrecuentesBox.propTypes = {
   pregunta: PropTypes.string.isRequired,
   text1: PropTypes.string.isRequired,
+  text2: PropTypes.string.isRequired,
 };
 
 export default PreguntasFrecuentesBox;

@@ -33,3 +33,18 @@
 }
 
 /* La verdad que hacerlo responsive fue TAN DIFICIL pero bueno, espero que alguien lo note */
+
+.pre-frec-container{
+    margin-top: 40px;
+    margin-left: 100px;
+    display: grid;
+    grid-gap: 10px;
+
+}
+
+.span-preguntas{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
