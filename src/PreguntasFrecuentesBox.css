@@ -1,0 +1,30 @@
+.pregunta-box{
+    margin-top: 40px;
+    width: 80%;
+
+    font-size: 25px;
+    font-weight: normal;
+    color: white;
+    background-color: rgba(19, 33, 68, 1);
+
+    padding: 15px;
+
+}
+
+.box-up{
+    width: 100%;
+    display: flex;
+}
+
+.pregunta{
+    flex-grow: 1;
+}
+
+.Add{
+    height: 30px;
+    width: 30px;
+}
+
+.box-down {
+    margin-top: 30px;
+}

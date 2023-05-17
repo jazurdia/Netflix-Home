@@ -1,0 +1,35 @@
+.container-card-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+.Card-container-app {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 90%;
+}
+
+.Card-container-app > * {
+    flex: 0 1 calc(20% - 20px); // Ajuste para que 4 cards quepan en una línea
+    min-width: 200px;
+}
+
+@media (max-width: 1700px) {
+    /* Cambia a 2 columnas en pantallas de hasta 768px */
+    .Card-container-app {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); // Ajuste para que 2 cards quepan en una línea
+    }
+}
+
+/* La verdad que hacerlo responsive fue TAN DIFICIL pero bueno, espero que alguien lo note */
