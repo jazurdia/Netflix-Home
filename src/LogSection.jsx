@@ -14,7 +14,7 @@ function LogSection() {
             type="email"
             id="email"
             name="email"
-            placeholder="Email"
+            placeholder="  Email"
             className="email-input"
           />
           <button className="boton" type="button">

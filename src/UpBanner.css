@@ -1,0 +1,17 @@
+.container{
+    color: white;
+    width: 55%;
+    padding: 20px 0;
+}
+
+.grande{
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.chico{
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+

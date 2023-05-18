@@ -8,8 +8,10 @@ import UpBanner from "./UpBanner";
 function App() {
   return (
     <div className="App">
-      <div className="BigassHeader">
+      <div className="top-bar" />
+      <div className="big-text">
         <UpBanner />
+        <LogSection />
       </div>
       <div className="container-card-container">
         <div className="Card-container-app">

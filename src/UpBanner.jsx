@@ -3,9 +3,9 @@ import "./UpBanner.css";
 
 function UpBanner() {
   return (
-    <div className="BigassText">
-      <span>Películas y series ilimitadas y</span>
-      <span>mucho más</span>
+    <div className="container">
+      <span className="grande">Películas y series ilimitadas y mucho más</span>
+      <span className="chico">Planes desde USD4.99 al mes </span>
     </div>
   );
 }

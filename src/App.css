@@ -1,5 +1,4 @@
 .App{
-
     background-color: dimgrey;
 
 }
@@ -54,3 +53,6 @@
     align-items: center;
 }
 
+.big-text{
+    margin-bottom: 150px;
+}
