@@ -1,6 +1,7 @@
-.container-card-container{
-    display: flex;
-    flex-direction: column;
+.App{
+
+    background-color: dimgrey;
+
 }
 
 .container-card-container{
@@ -24,7 +25,7 @@
     min-width: 200px;
 }
 
-@media (max-width: 1700px) {
+@media (max-width: 2000px) {
     /* Cambia a 2 columnas en pantallas de hasta 768px */
     .Card-container-app {
         display: grid;
@@ -48,6 +49,8 @@
 }
 
 .log-section{
-    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 

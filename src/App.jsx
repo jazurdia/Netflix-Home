@@ -64,9 +64,9 @@ function App() {
           text2="Los perfiles para niños incluyen controles parentales protegidos por PIN que te permiten restringir el contenido que pueden ver los niños en función de la clasificación por edad y bloquear determinados títulos que no quieras que los niños vean."
         />
       </div>
-        <div className="log-section">
-            <LogSection />
-        </div>
+      <div className="log-section">
+        <LogSection />
+      </div>
     </div>
   );
 }
