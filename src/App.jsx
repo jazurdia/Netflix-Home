@@ -3,10 +3,14 @@ import "./App.css";
 import Card from "./Card";
 import PreguntasFrecuentesBox from "./PreguntasFrecuentesBox";
 import LogSection from "./LogSection";
+import UpBanner from "./UpBanner";
 
 function App() {
   return (
     <div className="App">
+      <div className="BigassHeader">
+        <UpBanner />
+      </div>
       <div className="container-card-container">
         <div className="Card-container-app">
           <Card
