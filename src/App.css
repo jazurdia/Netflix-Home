@@ -48,7 +48,7 @@
 }
 
 .app-log-section-container{
-    margin-left: 3em;
+    margin-left: 5em;
     margin-top: 2em;
     margin-bottom: 8em;
 }
@@ -57,11 +57,15 @@
 .app-big-text-container{
     display: flex;
     flex-direction: column;
-    margin-left: 3em;
+    margin-left: 5em;
     gap: 1em;
     margin-bottom: 5em;
 }
 
 .app-top-bar-container{
+    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-left: 3em;
+    margin-right: 2em;
 }
 

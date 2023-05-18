@@ -78,6 +78,24 @@
 
 }
 
+.topbar-button-inciar-sesion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    border: white;
+    border-radius: 4px;
+}
+
+.topbbar-button-inciiar-sesion-text{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0.5em;
+ }
+
+
+
 
 
 /*
