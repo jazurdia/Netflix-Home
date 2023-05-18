@@ -3,29 +3,29 @@ import "./LogSection.css";
 
 function LogSection() {
   return (
-    <div className="container">
-      <div className="log-section">
-        <span className="texto">
+    <div className="lg-container-big">
+      <div className="lg-container-small">
+        <span className="lg-texto">
           ¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o
           reiniciar tu membresía de Netflix.
         </span>
-        <div className="down-part">
+        <div className="lg-down-part">
           <input
             type="email"
             id="email"
             name="email"
             placeholder="  Email"
-            className="email-input"
+            className="lg-email-input"
           />
-          <button className="boton" type="button">
-            <span className="button-text">Comenzar</span>
+          <button className="lg-boton" type="button">
+            <span className="lg-button-text">Comenzar</span>
             <svg
               width="24"
               height="24"
               viewBox="0 0 24 24"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="Hawkins-Icon Hawkins-Icon-Standard"
+              className="lg-svg-icon"
               data-name="ChevronRight"
             >
               <path

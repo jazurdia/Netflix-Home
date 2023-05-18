@@ -12,16 +12,16 @@ function PreguntasFrecuentesBox({ pregunta, text1, text2 }) {
   };
 
   return (
-    <div className="pregunta-box">
-      <div className="box-up">
-        <div className="pregunta">{pregunta}</div>
+    <div className="PFB-container">
+      <div className="PFB-up-container">
+        <div className="PFB-pregunta">{pregunta}</div>
         <svg
           width="24"
           height="24"
           viewBox="0 0 24 24"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="Add"
+          className="PFB-cruz"
           data-name="Add"
           onClick={toggleRespuesta}
           style={{ transform: `rotate(${svgRotation}deg)` }}
@@ -35,7 +35,7 @@ function PreguntasFrecuentesBox({ pregunta, text1, text2 }) {
         </svg>
       </div>
       {mostrarRespuesta && (
-        <div className="box-down">
+        <div className="PFB-down-container">
           {text1} <br /> <br /> {text2}
         </div>
       )}

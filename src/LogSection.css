@@ -1,10 +1,10 @@
 
-.log-section {
+.lg-container-small {
     display: block;
 }
 
-.texto {
-    font-size: 20px;
+.lg-texto {
+    font-size: 28px;
     margin-bottom: 20px;
     color: white;
 }
@@ -26,7 +26,7 @@ input{
     width: 350px;
 }
 
-input.email-input{
+input.lg-email-input{
     color: white;
     border: white 1px solid;
     font-size: 20px;
@@ -34,16 +34,13 @@ input.email-input{
 }
 
 /* Agregar abajo, no tocar lo de arriba */
-.container{
+.lg-container-big{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    margin-left: 100px;
 }
 
 
-.boton{
+.lg-boton{
     color: white;
     background-color: rgb(229, 9, 20);
     display: flex;
@@ -53,7 +50,7 @@ input.email-input{
     border: white;
 }
 
-.button-text{
+.lg-button-text{
     padding: 10px;
     font-size: 25px;
     font-weight: bold;
@@ -61,7 +58,7 @@ input.email-input{
 
 }
 
-.down-part {
+.lg-down-part {
     display: flex;
     flex-direction: row;
     margin-top: 20px;

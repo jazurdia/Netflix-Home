@@ -14,10 +14,10 @@ function Card({ srcImg, texto1, texto2 }) {
           className="card-img"
         />
       </div>
-      <div className="texto1">
+      <div className="card-texto1">
         <p>{texto1}</p>
       </div>
-      <div className="texto2">
+      <div className="card-texto2">
         <p>{texto2}</p>
       </div>
     </div>

@@ -1,28 +1,26 @@
-.pregunta-box{
-    width: 60%;
+.PFB-container{
     font-size: 25px;
     font-weight: normal;
     color: white;
     background-color: rgba(19, 33, 68, 1);
-
-    padding: 15px;
+    padding: 25px;
 
 }
 
-.box-up{
+.PFB-up-container{
     width: 100%;
     display: flex;
 }
 
-.pregunta{
+.PFB-pregunta{
     flex-grow: 1;
 }
 
-.Add{
+.PFB-cruz{
     height: 30px;
     width: 30px;
 }
 
-.box-down {
+.PFB-down-container {
     margin-top: 30px;
 }

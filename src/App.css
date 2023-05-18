@@ -1,58 +1,67 @@
 .App{
-    background-color: dimgrey;
-
 }
 
-.container-card-container{
+.app-card-container-big {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 5em;
+} /* revisado */
 
-    width: 100%;
-}
 
-.Card-container-app {
+.app-card-container-small {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
     gap: 20px;
-    width: 90%;
-}
+} /* revisado */
 
-.Card-container-app > * {
+.app-card-container-small > * {
     flex: 0 1 calc(20% - 20px); // Ajuste para que 4 cards quepan en una línea
-    min-width: 200px;
-}
+    min-width: 300px;
+} /* revisado */
 
-@media (max-width: 2000px) {
+@media (max-width: 1700px) {
     /* Cambia a 2 columnas en pantallas de hasta 768px */
-    .Card-container-app {
+    .app-card-container-small {
         display: grid;
-        grid-template-columns: repeat(2, 1fr); // Ajuste para que 2 cards quepan en una línea
+        grid-template-columns: repeat(2, 1fr); /* Ajuste para que 2 cards quepan en una línea */
     }
-}
+} /* revisado */
 
 /* La verdad que hacerlo responsive fue TAN DIFICIL pero bueno, espero que alguien lo note */
 
-.pre-frec-container{
-    margin-top: 40px;
-    margin-left: 100px;
+.app-preguntas-frecuentes-container{
+    margin-top: 5em;
+    margin-left: 5em;
+    margin-right: 45em;
     display: grid;
     grid-gap: 10px;
-
 }
 
-.span-preguntas{
+.app-span-preguntas{
     font-size: 40px;
     font-weight: bold;
+    color: white;
+    margin-bottom: 0.5em;
 }
 
-.log-section{
+.app-log-section-container{
+    margin-left: 3em;
+    margin-top: 2em;
+    margin-bottom: 8em;
+}
+
+
+.app-big-text-container{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    margin-left: 3em;
+    gap: 1em;
+    margin-bottom: 5em;
 }
 
-.big-text{
-    margin-bottom: 150px;
+.app-top-bar-container{
 }
+
