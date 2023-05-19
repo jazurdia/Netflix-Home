@@ -8,7 +8,7 @@ Javier Alejandro Azurdia Arrecis | 21242 <br/>
 
 <div style="display: flex; justify-content: center; flex-direction: column; align-items: center">
 <h2>Tecnologías que se utilizaron:</h2>
-<ul style="color: #5564a2; list-style: -moz-ethiopic-numeric; column-count: 2; column-gap: 4em; margin: 0; font-size: 1.2em;">
+<ul style=" column-count: 2; column-gap: 4em;">
     <li>HTML</li>
     <li>CSS</li>
     <li>JavaScript / React</li>
