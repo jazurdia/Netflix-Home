@@ -20,7 +20,8 @@ Javier Alejandro Azurdia Arrecis | 21242 <br/>
 </div>
 
 <div align="center" style="font-size: 1.5em">
+Página original: <br/>
 
-[Screenshot de la página original](https://github.com/jazurdia/Netflix-Home/blob/d1cddc87c126f70a3a7d1ed19939a2add6851e25/Copia%20de%20la%20p%C3%A1gina%20origina%20-%20NETFLIX.html)
+![Screenshot de la página original](Pagina-original.png)
 
 </div>
