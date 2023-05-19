@@ -1,5 +1,7 @@
 import React from "react";
-import "./App.css";
+
+import styles from "./App.module.css";
+
 import Card from "./Card";
 import PreguntasFrecuentesBox from "./PreguntasFrecuentesBox";
 import LogSection from "./LogSection";
@@ -9,17 +11,17 @@ import BottomBar from "./BottomBar";
 
 function App() {
   return (
-    <div className="App">
-      <div className="app-top-bar-container">
+    <div className={styles.App}>
+      <div className={styles["app-top-bar-container"]}>
         <TopBar />
       </div>
-      <div className="app-big-text-container">
+      <div className={styles["app-big-text-container"]}>
         <UpBanner />
         <LogSection />
       </div>
-      <div className="app-second-background">
-        <div className="app-card-container-big">
-          <div className="app-card-container-small">
+      <div className={styles["app-second-background"]}>
+        <div className={styles["app-card-container-big"]}>
+          <div className={styles["app-card-container-small"]}>
             <Card
               srcImg="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/pictogram/tv.svg"
               texto1="Disfruta en tu TV"
@@ -42,8 +44,10 @@ function App() {
             />
           </div>
         </div>
-        <div className="app-preguntas-frecuentes-container">
-          <span className="app-span-preguntas">Preguntas Frecuentes</span>
+        <div className={styles["app-preguntas-frecuentes-container"]}>
+          <span className={styles["app-span-preguntas"]}>
+            Preguntas Frecuentes
+          </span>
           <PreguntasFrecuentesBox
             pregunta="¿Qué es Netflix?"
             text1="Netflix es un servicio de streaming que ofrece una gran variedad de películas, series y documentales premiados en casi cualquier pantalla conectada a internet."
@@ -75,7 +79,7 @@ function App() {
             text2="Los perfiles para niños incluyen controles parentales protegidos por PIN que te permiten restringir el contenido que pueden ver los niños en función de la clasificación por edad y bloquear determinados títulos que no quieras que los niños vean."
           />
         </div>
-        <div className="app-log-section-container">
+        <div className={styles["app-log-section-container"]}>
           <LogSection />
         </div>
         <BottomBar />

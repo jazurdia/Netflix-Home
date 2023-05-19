@@ -1,23 +1,23 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "./Card.css";
+import styles from "./Card.module.css";
 
 function Card({ srcImg, texto1, texto2 }) {
   return (
-    <div className="card-container">
-      <div className="icon">
+    <div className={styles["card-container"]}>
+      <div className={styles.icon}>
         <img
           width="100px"
           height="100px"
           src={srcImg}
           alt="Crea perfiles para niños"
-          className="card-img"
+          className={styles["card-img"]}
         />
       </div>
-      <div className="card-texto1">
+      <div className={styles["card-texto1"]}>
         <p>{texto1}</p>
       </div>
-      <div className="card-texto2">
+      <div className={styles["card-texto2"]}>
         <p>{texto2}</p>
       </div>
     </div>

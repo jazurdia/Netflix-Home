@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "./PreguntasFrecuentesBox.css";
 import PropTypes from "prop-types";
+import styles from "./PreguntasFrecuentesBox.module.css";
 
 function PreguntasFrecuentesBox({ pregunta, text1, text2 }) {
   const [mostrarRespuesta, setMostrarRespuesta] = useState(false);
@@ -12,16 +12,16 @@ function PreguntasFrecuentesBox({ pregunta, text1, text2 }) {
   };
 
   return (
-    <div className="PFB-container">
-      <div className="PFB-up-container">
-        <div className="PFB-pregunta">{pregunta}</div>
+    <div className={styles["PFB-container"]}>
+      <div className={styles["PFB-up-container"]}>
+        <div className={styles["PFB-pregunta"]}>{pregunta}</div>
         <svg
           width="24"
           height="24"
           viewBox="0 0 24 24"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="PFB-cruz"
+          className={styles["PFB-cruz"]}
           data-name="Add"
           onClick={toggleRespuesta}
           style={{ transform: `rotate(${svgRotation}deg)` }}
@@ -35,7 +35,7 @@ function PreguntasFrecuentesBox({ pregunta, text1, text2 }) {
         </svg>
       </div>
       {mostrarRespuesta && (
-        <div className="PFB-down-container">
+        <div className={styles["PFB-down-container"]}>
           {text1} <br /> <br /> {text2}
         </div>
       )}

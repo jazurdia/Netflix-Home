@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./BottomBar.css";
+import styles from "./BottomBar.module.css";
 
 function BottomBar() {
   const [mostrarListaIdiomas, setMostrarListaIdiomas] = useState(false);
@@ -7,40 +7,40 @@ function BottomBar() {
     setMostrarListaIdiomas(!mostrarListaIdiomas);
   };
   return (
-    <div className="bottombar-container">
-      <div className="bottombar-title-container">
-        <span className="bottombar-title-text">
+    <div className={styles["bottombar-container"]}>
+      <div className={styles["bottombar-title-container"]}>
+        <span className={styles["bottombar-title-text"]}>
           ¿Preguntas? Llama al 1 (408) 600-1719 (USA)
         </span>
       </div>
-      <div className="bottombar-links-container">
-        <div className="bottombar-links-column-one">
+      <div className={styles["bottombar-links-container"]}>
+        <div className={styles["bottombar-links-column-one"]}>
           <span>Preguntas Frecuentes</span>
           <span>Relaciones con inversionistas</span>
           <span>Privacidad</span>
           <span>Prueba de velocidad</span>
         </div>
-        <div className="bottombar-links-column-two">
+        <div className={styles["bottombar-links-column-two"]}>
           <span>Centro de ayuda</span>
           <span>Empleo</span>
           <span>Preferencias de cookies</span>
           <span>Avisos legales</span>
         </div>
-        <div className="bottombar-links-column-three">
+        <div className={styles["bottombar-links-column-three"]}>
           <span>Cuenta</span>
           <span>Formas de ver</span>
           <span>Información corporativa</span>
           <span>Solo en Netflix</span>
         </div>
-        <div className="bottombar-links-column-three">
+        <div className={styles["bottombar-links-column-three"]}>
           <span>Prensa</span>
           <span>Términos de uso</span>
           <span>Contáctanos</span>
         </div>
       </div>
-      <div className="bottombar-boton-container">
+      <div className={styles["bottombar-boton-container"]}>
         <button
-          className="bottombar-boton"
+          className={styles["bottombar-boton"]}
           type="button"
           onClick={toggleListaIdiomas}
         >
@@ -50,7 +50,7 @@ function BottomBar() {
             viewBox="0 0 16 16"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="bb-planeta-svg"
+            className={styles["bb-planeta-svg"]}
             data-name="Globe"
           >
             <path
@@ -67,7 +67,7 @@ function BottomBar() {
             viewBox="0 0 16 16"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="bb-flecha-svg"
+            className={styles["bb-flecha-svg"]}
             data-name="CaretDown"
             aria-hidden="true"
           >
@@ -80,13 +80,13 @@ function BottomBar() {
           </svg>
         </button>
         {mostrarListaIdiomas && (
-          <ul className="bottombar-lista-idiomas">
+          <ul className={styles["bottombar-lista-idiomas"]}>
             <li>Español</li>
             <li>Inglés</li>
           </ul>
         )}
       </div>
-      <span className="bottombar-texto-abajo">Netflix Guatemala</span>
+      <span className={styles["bottombar-texto-abajo"]}>Netflix Guatemala</span>
     </div>
   );
 }
