@@ -28,6 +28,8 @@ Javier Alejandro Azurdia Arrecis | 21242 <br/>
 </ul>
 </div>
 
+<hr/>
+
 <div style="font-style: italic">
 Se implementó React
 <br/>
