@@ -30,6 +30,7 @@ Javier Alejandro Azurdia Arrecis | 21242 <br/>
 <br/>
 Pagina Creada
 <br/><br/>
+
 ![Screenshot de la página creada](Pagina-creada.png)
 
 </div>
