@@ -22,10 +22,14 @@ Javier Alejandro Azurdia Arrecis | 21242 <br/>
 </div>
 <hr/>
 <div align="center" style="font-size: 1em">
-    Página original: 
-<br/>
-<br/>
-    
+    Página original
+<br/><br/>
+
 ![Screenshot de la página original](Pagina-original.png)
+
+<br/>
+Pagina Creada
+<br/><br/>
+![Screenshot de la página creada](Pagina-creada.png)
 
 </div>
