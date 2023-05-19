@@ -8,7 +8,7 @@ Javier Alejandro Azurdia Arrecis | 21242 <br/>
 
 <div style="display: flex; justify-content: center; flex-direction: column; align-items: center">
 <h2 style="font-size: 1.5em;">
-    Tecnologías que se utilizaron:
+    Tecnologías que se utilizaron
 </h2>
 <ul style=" column-count: 2; column-gap: 4em;">
     <li>HTML</li>
@@ -19,7 +19,21 @@ Javier Alejandro Azurdia Arrecis | 21242 <br/>
     <li>ESLint</li>
     <li>Prettier</li>
 </ul>
+<h2 style="font-size: 1.5em;">
+    Tests
+</h2>
+<ul style=" column-count: 2; column-gap: 4em;">
+    <li>Storybook</li>
+    <li>Vitest</li>
+</ul>
 </div>
+
+<div align="center" style="font-style: italic">
+Se implementó css modules
+<br/>
+
+</div>
+
 <hr/>
 <div align="center" style="font-size: 1em">
     Página original
