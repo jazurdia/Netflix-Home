@@ -22,9 +22,7 @@ Javier Alejandro Azurdia Arrecis | 21242 <br/>
 </div>
 <hr/>
 <div align="center" style="font-size: 1em">
-    <br/>
     Página original: 
-    <br/>
     <br/>
     
 ![Screenshot de la página original](Pagina-original.png)
