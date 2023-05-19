@@ -23,7 +23,7 @@
 } /* revisado */
 
 .app-card-container-small > * {
-    flex: 0 1 calc(20% - 20px); /* Ajuste para que 4 cards quepan en una línea */
+    flex: 0 1 calc(21% - 20px); /* Ajuste para que 4 cards quepan en una línea */
     min-width: 200px;
 } /* revisado */
 
