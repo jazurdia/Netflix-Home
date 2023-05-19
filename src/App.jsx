@@ -5,6 +5,7 @@ import PreguntasFrecuentesBox from "./PreguntasFrecuentesBox";
 import LogSection from "./LogSection";
 import UpBanner from "./UpBanner";
 import TopBar from "./TopBar";
+import BottomBar from "./BottomBar";
 
 function App() {
   return (
@@ -76,6 +77,7 @@ function App() {
       <div className="app-log-section-container">
         <LogSection />
       </div>
+      <BottomBar />
     </div>
   );
 }

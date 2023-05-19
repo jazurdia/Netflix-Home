@@ -60,14 +60,12 @@
 
 .topbar-lista-idiomas {
     position: absolute;
-    top: 2.5em;
+    top: 3em;
     background-color: #222222;
     border-radius: 4px;
     padding: 0.5em;
     list-style: none;
     width: fit-content;
-
-
 }
 
 .topbar-lista-idiomas li {
@@ -93,6 +91,8 @@
     font-weight: bold;
     padding: 0.5em;
  }
+
+
 
 
 
