@@ -20,7 +20,7 @@ Javier Alejandro Azurdia Arrecis | 21242 <br/>
     <li>Prettier</li>
 </ul>
 </div>
-<div align="center" style="font-size: 1.3em">
+<div align="center" style="font-size: 5em">
 Página original: <br/>
 
 ![Screenshot de la página original](Pagina-original.png)
