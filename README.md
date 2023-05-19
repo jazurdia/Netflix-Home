@@ -37,7 +37,9 @@ Se implementó css modules
 <br/>
 Se describieron las tecnologías usadas en el Readme.md
 <br/>
-Se implementó Storybook y Vitest
+Se implementó Storybook
+<br/>
+Se implementó Vitest
 <br/>
 </div>
 
