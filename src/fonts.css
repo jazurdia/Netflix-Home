@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'custom1';
+    src: url('./img/NetflixSans_W_Bd.woff2') format('truetype');
+    /* Additional font formats and sources can be added here */
+}
+
+@font-face {
+    font-family: 'custom2';
+    src: url('./img/NetflixSans_W_Md.woff2') format('truetype');
+    /* Additional font formats and sources can be added here */
+}
+

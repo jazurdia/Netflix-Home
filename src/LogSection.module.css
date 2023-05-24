@@ -4,13 +4,14 @@
 }
 
 .lg-texto {
-    font-size: 28px;
+    font-size: 20px;
+    font-weight: normal;
     margin-bottom: 20px;
     color: white;
 }
 
 label {
-    font-weight: bold;
+    font-weight: bolder;
     margin-bottom: 5px;
 }
 
@@ -53,9 +54,6 @@ input.lg-email-input{
 .lg-button-text{
     padding: 10px;
     font-size: 25px;
-    font-weight: bold;
-
-
 }
 
 .lg-down-part {

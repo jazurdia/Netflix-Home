@@ -1,6 +1,4 @@
 .PFB-container{
-    font-size: 25px;
-    font-weight: normal;
     color: white;
     background-color: rgba(19, 33, 68, 1);
     padding: 25px;
@@ -10,6 +8,8 @@
 .PFB-up-container{
     width: 100%;
     display: flex;
+    font-size: 25px;
+    font-weight: normal;
 }
 
 .PFB-pregunta{
@@ -23,4 +23,6 @@
 
 .PFB-down-container {
     margin-top: 30px;
+    font-size: 20px;
+    font-weight: lighter;
 }

@@ -1,3 +1,5 @@
+@import url('./fonts.css');
+
 .App{
     background: linear-gradient(180deg, rgba(0, 8, 29, 0) 0%, #00081D 93.46%);
 }

@@ -16,7 +16,7 @@ import BottomBar from "./BottomBar";
 
 function App() {
   return (
-    <div className={styles.App}>
+    <div className={styles.App} style={{ fontFamily: "custom2" }}>
       <div className={styles["app-top-bar-container"]}>
         <TopBar />
       </div>
