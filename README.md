@@ -56,6 +56,6 @@ Se implementó Vitest
 Pagina Creada
 <br/><br/>
 
-![Screenshot de la página creada](Pagina-creada.png)
+![Screenshot de la página creada](copia-netflix.png)
 
 </div>
