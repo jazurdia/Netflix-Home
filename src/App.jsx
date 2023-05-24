@@ -1,5 +1,10 @@
 import React from "react";
 
+import Card1 from "./img/card1.svg";
+import Card2 from "./img/card2.svg";
+import Card3 from "./img/card3.svg";
+import Card4 from "./img/card4.svg";
+
 import styles from "./App.module.css";
 
 import Card from "./Card";
@@ -23,22 +28,22 @@ function App() {
         <div className={styles["app-card-container-big"]}>
           <div className={styles["app-card-container-small"]}>
             <Card
-              srcImg="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/pictogram/tv.svg"
+              srcImg={Card1}
               texto1="Disfruta en tu TV"
               texto2="Ve en smart TV, PlayStation, Xbox, Chromecast, Apple TV, reproductores de Blu-ray y más."
             />
             <Card
-              srcImg="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/pictogram/popcorn.svg"
+              srcImg={Card2}
               texto1="Disfruta donde quieras"
               texto2="Películas y series ilimitadas en tu teléfono, tablet, computadora y TV."
             />
             <Card
-              srcImg="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/pictogram/crystalball.svg"
+              srcImg={Card3}
               texto1="Crea perfiles para niños"
               texto2="Los niños vivirán aventuras con sus personajes favoritos en un espacio diseñado exclusivamente para ellos, sin costo con tu membresía."
             />
             <Card
-              srcImg="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/pictogram/download.svg"
+              srcImg={Card4}
               texto1="Descarga tus series para verlas offline"
               texto2="Guarda tu contenido favorito y tendrás siempre algo para ver."
             />
